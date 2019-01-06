@@ -1,0 +1,8 @@
+workspace:
+  base: /test
+  path: src/github.com/LLYYXX/CI-CDtest
+pipeline:
+  build:
+    image: maven:3.6.0-jdk-8-alpine
+    commands:
+      - echo "start build..."
